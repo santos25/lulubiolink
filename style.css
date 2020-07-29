@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
 body{
-    font-family: 'Courgette', cursive;    
+    font-family: 'Roboto', sans-serif;
 }
 
  header{
-    background-image: url('https://cdn.pixabay.com/photo/2017/08/06/22/52/blouse-2597205_1280.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/02/19/46/rose-petals-3194062_1280.jpg');
     
 } 
