@@ -14,39 +14,41 @@
 
 <body>
     <header class="h-screen bg-cover bg-center flex flex-col justify-center items-center
-                    text-white">
+                    text-black">
         <div class="border-solid flex flex-col items-center">
             <div>
-                <img src="/image.png" alt="">
+                <img class="h-20 sm:h-24" src="image.png" alt="">
             </div>
-            <div>
-                <h1 class="text-4xl"> LULU CARTAGENA </h1>
+            <div class="mt-2">
+                <h1 class="text-xl"> LULU CARTAGENA </h1>
             </div>
-            <div>
-                <p class="text-xl">Bienvenidos! Te deseamos un buen día
-                    <i class="far fa-smile-beam text-yellow-500"></i>
-                    <i class="fas fa-tshirt text-yellow-500"></i>
+            <div class="p-4">
+                <p class="text-xl">¡Hola te damos la bienvenida, gracias por elegirnos!
+                    <!-- <i class="far fa-smile-beam text-yellow-500"></i> -->
+                    <!-- <i class="fas fa-tshirt text-yellow-500"></i> -->
+                    <i class="fas fa-heart text-red-700"></i>
+                    <i class="fas fa-heart text-red-700"></i>
                     <i class="fas fa-heart text-red-700"></i> </p>
             </div>
         </div>
-        <div class="w-1/2 my-5 flex flex-col items-center ">
+        <div class="w-screen  flex flex-col items-center">
 
-            <button id="btnCatalogo" class="m-2 w-1/2 border-solid border-white border-2 
-                                            flex flex-row justify-around p-3 rounded-full">
-                <i class="text-2xl fas fa-images"></i>
-                <h3>Ver Catalogo</h3>
+            <button id="btnCatalogo" class="m-2 px-6 w-3/4 border-dashed border-black border-2 
+                                            flex flex-row justify-center items-center p-3 rounded-full">
+                <i class="text-3xl fas fas fa-tshirt text-green-700"></i>
+                <h2 class="flex-grow text-lg">Catálogos Lulu</h2>
             </button>
 
-            <button id="btnMayor" class="m-2 w-1/2 border-solid border-white border-2 flex 
-                          flex-row justify-around p-3 rounded-full">
-                <i class="text-2xl fab fa-whatsapp "></i>
-                <h3>Venta al por mayor</h3>
+            <button id="btnMayor" class="m-2 px-6 w-3/4  border-dashed border-black border-2 flex 
+                          flex-row justify-center items-center  p-3 rounded-full">
+                <i class="text-4xl fab fa-whatsapp-square text-green-700"></i>
+                <h2 class="flex-grow text-lg">Asesoría Mayorista</h2>
             </button>
 
-            <button id="btnDetail" class="m-2 w-1/2 border-solid border-white border-2 flex 
-                        flex-row justify-around p-3 rounded-full">
-                <i class="text-2xl fab fa-whatsapp"></i>
-                <h3>Venta al detail</h3>
+            <button id="btnDetail" class="m-2 px-6 w-3/4 border-dashed border-black border-2 flex 
+                        flex-row justify-center items-center p-3 rounded-full">
+                <i class="text-4xl fab fa-whatsapp-square text-green-700"></i>
+                <h2 class="flex-grow text-lg">Ventas Detal</h2>
             </button>
 
         </div>
