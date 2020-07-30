@@ -9,7 +9,7 @@ function openCatalogo(e) {
 
 function messageMayorWhatsApp(e) {
     console.log("Sending Message");
-    const message = "Buenas  esta es una venta al  por mayor";
+    const message = "Hola, quiero una asesoría mayorista";
     const url = 'https://wa.me/' + numero + "/?text=" + encodeURI(message);
     console.log(encodeURIComponent(url));
     window.open(url, "_blank")
@@ -18,7 +18,7 @@ function messageMayorWhatsApp(e) {
 
 function messageDetailWhatsApp(e) {
     console.log("Sending Message");
-    const message = "Buenas  esta es una venta al detail";
+    const message = "Hola, deseo comprar al detal.";
     const url = 'https://wa.me/' + numero + "/?text=" + encodeURI(message);
     console.log(encodeURIComponent(url));
     window.open(url, "_blank")

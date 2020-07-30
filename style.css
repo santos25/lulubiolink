@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Recursive', sans-serif;
 }
 
  header{
-    background-image: url('https://cdn.pixabay.com/photo/2018/03/02/19/46/rose-petals-3194062_1280.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2018/06/20/00/54/work-3485548_960_720.jpg');
     
 } 
