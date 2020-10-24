@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7b7ff7494f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>LULU</title>
+  </head>
+
+  <body>
+    <header
+      class="h-screen bg-cover bg-center flex flex-col justify-center items-center text-black"
+    >
+      <div class="border-solid flex flex-col items-center">
+        <div>
+          <img class="h-24 sm:h-24 rounded-full" src="newLogo.jpeg" alt="" />
+        </div>
+        <div class="mt-2 flex w-3/5 text-center">
+          <h1 class="text-xl font-bold">¡Hola! bienvenida a Lulú</h1>
+        </div>
+        <div class="p-4 text-center">
+          <p class="text-xl">
+            Estamos felices por elegirnos, escoge tu mejor opción
+            <!-- <i class="far fa-smile-beam text-yellow-500"></i> -->
+            <!-- <i class="fas fa-tshirt text-yellow-500"></i> -->
+          </p>
+        </div>
+      </div>
+      <div class="w-screen flex flex-col items-center">
+        <button
+          id="btnCatalogo"
+          class="m-2 px-6 w-3/4 bg-white flex flex-row justify-center items-center p-3 rounded-full"
+        >
+          <i class="text-3xl fas fa-store text-red-400"></i>
+          <h2 class="flex-grow text-lg">Catálogos Lulu</h2>
+        </button>
+
+        <button
+          id="btnMayor"
+          class="m-2 px-6 w-3/4 bg-white flex flex-row justify-center items-center p-3 rounded-full"
+        >
+          <i class="text-4xl fab fa-whatsapp text-green-600"></i>
+          <h2 class="flex-grow text-lg">Asesoría Mayorista</h2>
+        </button>
+
+        <button
+          id="btnDetail"
+          class="m-2 px-6 w-3/4 bg-white flex flex-row justify-center items-center p-3 rounded-full"
+        >
+          <i class="text-4xl fab fa-whatsapp text-green-600"></i>
+          <h2 class="flex-grow text-lg">Ventas Detal</h2>
+        </button>
+      </div>
+    </header>
+
+    <script src="index.js"></script>
+  </body>
+</html>
